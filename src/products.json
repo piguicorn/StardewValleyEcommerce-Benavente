@@ -1,0 +1,164 @@
+{
+    "general": [
+        {
+            "name": "Grass Starter",
+            "price": "100",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/1/14/Grass_Starter.png",
+            "description": "Place this on your farm to start a new patch of grass.",
+            "category": "General",
+            "id": "1"
+        },
+        {
+            "name": "Sugar",
+            "price": "100",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/a/a9/Sugar.png",
+            "description": "Adds sweetness to pastries and candies. Too much can be unhealthy.",
+            "category": "General",
+            "id": "2"
+        },
+        {
+            "name": "Wheat Flour",
+            "price": "100",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/2/2c/Wheat_Flour.png",
+            "description": "A common cooking ingredient made from crushed wheat seeds. ",
+            "category": "General",
+            "id": "3"
+        },
+        {
+            "name": "Rice",
+            "price": "200",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/d/da/Rice.png",
+            "description": "A basic grain often served under vegetables. ",
+            "category": "General",
+            "id": "4"
+        },
+        {
+            "name": "Oil",
+            "price": "200",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/0/06/Oil.png",
+            "description": "All purpose cooking oil. ",
+            "category": "General",
+            "id": "5"
+        },
+        {
+            "name": "Vinegar",
+            "price": "200",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/f/fe/Vinegar.png",
+            "description": "An aged fermented liquid used in many cooking recipes. ",
+            "category": "General",
+            "id": "6"
+        },
+        {
+            "name": "Basic Fertilizer",
+            "price": "100",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/9/9b/Basic_Fertilizer.png",
+            "description": "Improves soil quality a little, increasing your chance to grow quality crops. Mix into tilled soil.",
+            "category": "General",
+            "id": "7"
+        },
+        {
+            "name": "Quality Fertilizer",
+            "price": "150",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/a/a0/Quality_Fertilizer.png",
+            "description": "Improves soil quality, increasing your chance to grow quality crops. Mix into tilled soil.",
+            "category": "General",
+            "id": "8"
+        },
+        {
+            "name": "Basic Retaining Soil",
+            "price": "100",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/c/c7/Basic_Retaining_Soil.png",
+            "description": "This soil has a chance of staying watered overnight. Mix into tilled soil.",
+            "category": "General",
+            "id": "9"
+        },
+        {
+            "name": "Quality Retaining Soil",
+            "price": "150",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/0/0a/Quality_Retaining_Soil.png",
+            "description": "This soil has a good chance of staying watered overnight. Mix into tilled soil.",
+            "category": "General",
+            "id": "10"
+        },
+        {
+            "name": "Speed-Gro",
+            "price": "100",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/9/94/Speed-Gro.png",
+            "description": "Stimulates leaf production. Guaranteed to increase growth rate by at least 10%. Mix into tilled soil.",
+            "category": "General",
+            "id": "11"
+        },
+        {
+            "name": "Deluxe Speed-Gro",
+            "price": "150",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/6/6d/Deluxe_Speed-Gro.png",
+            "description": "Stimulates leaf production. Guaranteed to increase growth rate by at least 25%. Mix into tilled soil.",
+            "category": "General",
+            "id": "12"
+        },
+        {
+            "name": "Cherry Sapling",
+            "price": "3,400",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/2/22/Cherry_Sapling.png",
+            "description": "Takes 28 days to produce a mature Cherry tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty. ",
+            "category": "General",
+            "id": "13"
+        },
+        {
+            "name": "Apricot Sapling",
+            "price": "2,000",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/9/9d/Apricot_Sapling.png",
+            "description": "Takes 28 days to produce a mature Apricot tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty. ",
+            "category": "General",
+            "id": "14"
+        },
+        {
+            "name": "Orange Sapling",
+            "price": "4,000",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/0/08/Orange_Sapling.png",
+            "description": "Takes 28 days to produce a mature Orange tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty. ",
+            "category": "General",
+            "id": "15"
+        },
+        {
+            "name": "Peach Sapling",
+            "price": "6,000",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/e/e3/Peach_Sapling.png",
+            "description": "Takes 28 days to produce a mature Peach tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty. ",
+            "category": "General",
+            "id": "16"
+        },
+        {
+            "name": "Pomegranate Sapling",
+            "price": "6,000",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/1/10/Pomegranate_Sapling.png",
+            "description": "Takes 28 days to produce a mature Pomegranate tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty. ",
+            "category": "General",
+            "id": "17"
+        },
+        {
+            "name": "Apple Sapling",
+            "price": "4,000",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/6/68/Apple_Sapling.png",
+            "description": "Takes 28 days to produce a mature Apple tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty. ",
+            "category": "General",
+            "id": "18"
+        },
+        {
+            "name": "Catalogue",
+            "price": "30,000",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/49/Catalogue.png/32px-Catalogue.png",
+            "description": "Provides unlimited access to all wallpapers and floors... from the convenience of your home! ",
+            "category": "General",
+            "id": "19"
+        },
+        {
+            "name": "Bouquet",
+            "price": "200",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/8/83/Bouquet.png",
+            "description": "A gift that shows your romantic interest.",
+            "category": "General",
+            "id": "20"
+        }
+    ]
+}
