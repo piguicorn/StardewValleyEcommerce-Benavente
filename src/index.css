@@ -12,6 +12,10 @@ body {
   background: #f2f2f2;
 }
 
+a {
+  text-decoration: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -33,6 +37,13 @@ header {
 
 header .logo {
   width: 120px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+header .logo img {
+  width: 100%;
 }
 
 header > nav {
@@ -48,10 +59,22 @@ header > nav > ul {
   gap: 1.5em;
 }
 
-header > nav > ul > li:hover {
+nav > ul button {
+  height: 100%;
+  font-size: 1rem;
+  background: none;
+  border: none;
   cursor: pointer;
+}
+
+nav > ul button:hover,
+nav > ul .active button {
   opacity: 0.8;
   color: gray;
+}
+
+nav > ul .active button {
+  cursor: auto;
 }
 
 nav > .mycart-btn {
@@ -106,4 +129,12 @@ main > .loader {
 .item button:hover {
   cursor: pointer;
   box-shadow: 5px 5px 10px 1px brown;
+}
+
+section.item-detail {
+  max-width: 500px;
+  margin: auto;
+  margin-top: auto;
+  text-align: center;
+  margin-top: 50px;
 }

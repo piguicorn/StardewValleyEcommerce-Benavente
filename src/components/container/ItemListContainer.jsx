@@ -1,6 +1,7 @@
-import ItemList from "./ItemList"
+import ItemList from "../ItemList"
 
-export default function ItemListContainer({greeting}) {
+export default function ItemListContainer() {
+
     return (
         <main>
             <h1 style={{

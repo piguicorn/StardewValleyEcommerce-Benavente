@@ -1,12 +1,20 @@
 {
-    "general": [
+    "products": [
         {
             "name": "Grass Starter",
             "price": "100",
             "img": "https://stardewvalleywiki.com/mediawiki/images/1/14/Grass_Starter.png",
             "description": "Place this on your farm to start a new patch of grass.",
             "category": "General",
-            "id": "1"
+            "id": "grass-starter"
+        },
+        {
+            "name": "Parsnip Seeds",
+            "price": "20",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/d/d3/Parsnip_Seeds.png",
+            "description": "Plant these in the spring. Takes 4 days to mature.",
+            "category": "Spring",
+            "id": "parsnip-seeds"
         },
         {
             "name": "Sugar",
@@ -14,7 +22,31 @@
             "img": "https://stardewvalleywiki.com/mediawiki/images/a/a9/Sugar.png",
             "description": "Adds sweetness to pastries and candies. Too much can be unhealthy.",
             "category": "General",
-            "id": "2"
+            "id": "sugar"
+        },
+        {
+            "name": "Bean Starter",
+            "price": "60",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/2/26/Bean_Starter.png",
+            "description": "Plant these in the spring. Takes 10 days to mature, but keeps producing after that. Grows on a trellis. ",
+            "category": "Spring",
+            "id": "bean-starter"
+        },
+        {
+            "name": "Cauliflower Seeds",
+            "price": "60",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/b/bb/Cauliflower_Seeds.png",
+            "description": "Plant these in the spring. Takes 12 days to produce a large cauliflower.",
+            "category": "Spring",
+            "id": "cauliflower-seeds"
+        },
+        {
+            "name": "Eggplant Seeds",
+            "price": "20",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/f/f9/Eggplant_Seeds.png",
+            "description": "Plant these in the fall. Takes 5 days to mature, and continues to produce after first harvest. ",
+            "category": "Autumn",
+            "id": "eggplant-seeds"
         },
         {
             "name": "Wheat Flour",
@@ -22,7 +54,7 @@
             "img": "https://stardewvalleywiki.com/mediawiki/images/2/2c/Wheat_Flour.png",
             "description": "A common cooking ingredient made from crushed wheat seeds. ",
             "category": "General",
-            "id": "3"
+            "id": "wheat-flour"
         },
         {
             "name": "Rice",
@@ -30,7 +62,7 @@
             "img": "https://stardewvalleywiki.com/mediawiki/images/d/da/Rice.png",
             "description": "A basic grain often served under vegetables. ",
             "category": "General",
-            "id": "4"
+            "id": "rice"
         },
         {
             "name": "Oil",
@@ -38,7 +70,7 @@
             "img": "https://stardewvalleywiki.com/mediawiki/images/0/06/Oil.png",
             "description": "All purpose cooking oil. ",
             "category": "General",
-            "id": "5"
+            "id": "oil"
         },
         {
             "name": "Vinegar",
@@ -46,7 +78,7 @@
             "img": "https://stardewvalleywiki.com/mediawiki/images/f/fe/Vinegar.png",
             "description": "An aged fermented liquid used in many cooking recipes. ",
             "category": "General",
-            "id": "6"
+            "id": "vinegar"
         },
         {
             "name": "Basic Fertilizer",
@@ -54,7 +86,7 @@
             "img": "https://stardewvalleywiki.com/mediawiki/images/9/9b/Basic_Fertilizer.png",
             "description": "Improves soil quality a little, increasing your chance to grow quality crops. Mix into tilled soil.",
             "category": "General",
-            "id": "7"
+            "id": "basic-fertilizer"
         },
         {
             "name": "Quality Fertilizer",
@@ -62,7 +94,7 @@
             "img": "https://stardewvalleywiki.com/mediawiki/images/a/a0/Quality_Fertilizer.png",
             "description": "Improves soil quality, increasing your chance to grow quality crops. Mix into tilled soil.",
             "category": "General",
-            "id": "8"
+            "id": "quality-fertilizer"
         },
         {
             "name": "Basic Retaining Soil",
@@ -70,7 +102,7 @@
             "img": "https://stardewvalleywiki.com/mediawiki/images/c/c7/Basic_Retaining_Soil.png",
             "description": "This soil has a chance of staying watered overnight. Mix into tilled soil.",
             "category": "General",
-            "id": "9"
+            "id": "basic-retaining-soil"
         },
         {
             "name": "Quality Retaining Soil",
@@ -78,7 +110,7 @@
             "img": "https://stardewvalleywiki.com/mediawiki/images/0/0a/Quality_Retaining_Soil.png",
             "description": "This soil has a good chance of staying watered overnight. Mix into tilled soil.",
             "category": "General",
-            "id": "10"
+            "id": "quality-retaining-soil"
         },
         {
             "name": "Speed-Gro",
@@ -86,7 +118,23 @@
             "img": "https://stardewvalleywiki.com/mediawiki/images/9/94/Speed-Gro.png",
             "description": "Stimulates leaf production. Guaranteed to increase growth rate by at least 10%. Mix into tilled soil.",
             "category": "General",
-            "id": "11"
+            "id": "speed-gro"
+        },
+        {
+            "name": "Pumpkin Seeds",
+            "price": "100",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/9/99/Pumpkin_Seeds.png",
+            "description": "Plant these in the fall. Takes 13 days to mature. ",
+            "category": "Autumn",
+            "id": "pumpkin-seeds"
+        },
+        {
+            "name": "Melon Seeds",
+            "price": "80",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/5/5e/Melon_Seeds.png",
+            "description": "Plant these in the summer. Takes 12 days to mature.",
+            "category": "Summer",
+            "id": "melon-seeds"
         },
         {
             "name": "Deluxe Speed-Gro",
@@ -94,7 +142,15 @@
             "img": "https://stardewvalleywiki.com/mediawiki/images/6/6d/Deluxe_Speed-Gro.png",
             "description": "Stimulates leaf production. Guaranteed to increase growth rate by at least 25%. Mix into tilled soil.",
             "category": "General",
-            "id": "12"
+            "id": "deluxe-speed-gro"
+        },
+        {
+            "name": "Tomato Seeds",
+            "price": "50",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/e/e3/Tomato_Seeds.png",
+            "description": "Plant these in the summer. Takes 11 days to mature, and continues to produce after first harvest. ",
+            "category": "Summer",
+            "id": "tomato-seeds"
         },
         {
             "name": "Cherry Sapling",
@@ -102,7 +158,7 @@
             "img": "https://stardewvalleywiki.com/mediawiki/images/2/22/Cherry_Sapling.png",
             "description": "Takes 28 days to produce a mature Cherry tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty. ",
             "category": "General",
-            "id": "13"
+            "id": "cherry-sapling"
         },
         {
             "name": "Apricot Sapling",
@@ -110,7 +166,7 @@
             "img": "https://stardewvalleywiki.com/mediawiki/images/9/9d/Apricot_Sapling.png",
             "description": "Takes 28 days to produce a mature Apricot tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty. ",
             "category": "General",
-            "id": "14"
+            "id": "apricot-sapling"
         },
         {
             "name": "Orange Sapling",
@@ -118,7 +174,7 @@
             "img": "https://stardewvalleywiki.com/mediawiki/images/0/08/Orange_Sapling.png",
             "description": "Takes 28 days to produce a mature Orange tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty. ",
             "category": "General",
-            "id": "15"
+            "id": "orange-sapling"
         },
         {
             "name": "Peach Sapling",
@@ -126,7 +182,7 @@
             "img": "https://stardewvalleywiki.com/mediawiki/images/e/e3/Peach_Sapling.png",
             "description": "Takes 28 days to produce a mature Peach tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty. ",
             "category": "General",
-            "id": "16"
+            "id": "peach-sapling"
         },
         {
             "name": "Pomegranate Sapling",
@@ -134,7 +190,7 @@
             "img": "https://stardewvalleywiki.com/mediawiki/images/1/10/Pomegranate_Sapling.png",
             "description": "Takes 28 days to produce a mature Pomegranate tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty. ",
             "category": "General",
-            "id": "17"
+            "id": "pomegranate-sapling"
         },
         {
             "name": "Apple Sapling",
@@ -142,7 +198,7 @@
             "img": "https://stardewvalleywiki.com/mediawiki/images/6/68/Apple_Sapling.png",
             "description": "Takes 28 days to produce a mature Apple tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty. ",
             "category": "General",
-            "id": "18"
+            "id": "apple-sapling"
         },
         {
             "name": "Catalogue",
@@ -150,7 +206,23 @@
             "img": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/49/Catalogue.png/32px-Catalogue.png",
             "description": "Provides unlimited access to all wallpapers and floors... from the convenience of your home! ",
             "category": "General",
-            "id": "19"
+            "id": "catalogue"
+        },
+        {
+            "name": "Blueberry Seeds",
+            "price": "80",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/8/81/Blueberry_Seeds.png",
+            "description": "Plant these in the summer. Takes 13 days to mature, and continues to produce after first harvest. ",
+            "category": "Summer",
+            "id": "blueberry-seeds"
+        },
+        {
+            "name": "Potato Seeds",
+            "price": "50",
+            "img": "https://stardewvalleywiki.com/mediawiki/images/4/44/Potato_Seeds.png",
+            "description": "Plant these in the spring. Takes 6 days to mature, and has a chance of yielding multiple potatoes at harvest. ",
+            "category": "Spring",
+            "id": "potato-seeds"
         },
         {
             "name": "Bouquet",
@@ -158,7 +230,7 @@
             "img": "https://stardewvalleywiki.com/mediawiki/images/8/83/Bouquet.png",
             "description": "A gift that shows your romantic interest.",
             "category": "General",
-            "id": "20"
+            "id": "bouquet"
         }
     ]
 }
