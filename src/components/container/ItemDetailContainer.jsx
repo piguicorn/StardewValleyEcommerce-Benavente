@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Loader from "../../media/Loader";
 import data from "../../products.json";
 import ItemDetail from "../ItemDetail";
@@ -54,6 +54,7 @@ export default function ItemDetailContainer() {
               price={product.price}
               description={product.description}
               img={product.img}
+              id={product.id}
             />
           </section>
         </>

@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from "../media/stardewvalley-logo.png";
 import CartWidget from "./CartWidget";
 import { Link, NavLink } from "react-router-dom";

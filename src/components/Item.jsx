@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function Item({ name, img, price }) {
   return (
     <li className="item">

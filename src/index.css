@@ -77,7 +77,8 @@ nav > ul .active button {
   cursor: auto;
 }
 
-nav > .mycart-btn {
+nav .mycart-btn,
+.clear-cart-btn {
   display: flex;
   align-items: center;
   gap: 1em;
@@ -88,10 +89,16 @@ nav > .mycart-btn {
   padding: 0.5em 1em;
 }
 
-nav > .mycart-btn:hover {
+nav .mycart-btn:hover,
+.clear-cart-btn:hover {
   cursor: pointer;
   opacity: 0.8;
   background: gray;
+}
+
+.clear-cart-btn {
+  margin: auto;
+  margin-top: 80px;
 }
 
 main {
@@ -137,4 +144,20 @@ section.item-detail {
   margin-top: auto;
   text-align: center;
   margin-top: 50px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }

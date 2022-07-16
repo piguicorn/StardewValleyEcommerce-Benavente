@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Item from "./Item";
 import data from "../products.json";
 import Loader from "../media/Loader";
@@ -41,7 +41,7 @@ export default function ItemList() {
       ) : (
         <ul className="item-list">
           {productsList.map((p) => (
-            <Link to={`/item/${p.id}`}>
+            <Link to={`/item/${p.id}`} key={p.id}>
               <Item name={p.name} price={p.price} img={p.img} key={p.id} />
             </Link>
           ))}
