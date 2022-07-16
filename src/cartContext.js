@@ -11,12 +11,12 @@ export function CartProvider({ children }) {
     }
 
     // addItem
-    const addItem = (item) => {
+    const addItem = (item, quantity) => {
         if (!isItemInCart(item.id)) {
-            setItems(prevItems => [...prevItems, { 'item': item, quantity: 1 }])
+            setItems(prevItems => [...prevItems, { 'item': item, quantity }])
         } else {
             const selectedItem = items.filter(i => i.item.id === item.id)[0]
-            ++selectedItem.quantity;
+            selectedItem.quantity = selectedItem.quantity + quantity;
 
             const filteredItems = items.filter(i => i.item.id !== item.id)
 
