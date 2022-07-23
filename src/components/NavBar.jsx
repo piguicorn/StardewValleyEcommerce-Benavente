@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import logo from "../media/stardewvalley-logo.png";
 import CartWidget from "./CartWidget";
 import { Link, NavLink } from "react-router-dom";
+import { CartContext } from '../cartContext';
 
 export default function NavBar() {
+  const [, , , , totalItems] = useContext(CartContext);
+
   return (
     <header>
       <Link to="/">
@@ -46,7 +49,7 @@ export default function NavBar() {
             </NavLink>
           </li>
         </ul>
-        <CartWidget />
+        {totalItems > 0 ? <CartWidget /> : null}
       </nav>
     </header>
   );

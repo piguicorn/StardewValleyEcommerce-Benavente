@@ -46,7 +46,7 @@ header .logo img {
   width: 100%;
 }
 
-header > nav {
+header>nav {
   flex-grow: 2;
   display: flex;
   justify-content: flex-end;
@@ -54,12 +54,12 @@ header > nav {
   align-items: center;
 }
 
-header > nav > ul {
+header>nav>ul {
   display: flex;
   gap: 1.5em;
 }
 
-nav > ul button {
+nav>ul button {
   height: 100%;
   font-size: 1rem;
   background: none;
@@ -67,13 +67,13 @@ nav > ul button {
   cursor: pointer;
 }
 
-nav > ul button:hover,
-nav > ul .active button {
+nav>ul button:hover,
+nav>ul .active button {
   opacity: 0.8;
   color: gray;
 }
 
-nav > ul .active button {
+nav>ul .active button {
   cursor: auto;
 }
 
@@ -81,7 +81,7 @@ nav .mycart-btn,
 .clear-cart-btn {
   display: flex;
   align-items: center;
-  gap: 1em;
+  gap: 0.5em;
   color: white;
   background: #282828;
   border-radius: 5px;
@@ -96,9 +96,28 @@ nav .mycart-btn:hover,
   background: gray;
 }
 
+nav .mycart-btn:hover .total-items span {
+  color: gray;
+}
+
 .clear-cart-btn {
   margin: auto;
   margin-top: 80px;
+}
+
+.total-items {
+  display: flex;
+  align-items: center;
+}
+
+.total-items span {
+  background: white;
+  font-weight: bold;
+  border-radius: 50%;
+  font-size: 0.7rem;
+  font-family: Arial;
+  color: black;
+  padding: 0.3em 0.5em;
 }
 
 main {
@@ -106,7 +125,7 @@ main {
   margin: auto;
 }
 
-main > .loader {
+main>.loader {
   margin: auto;
   display: block;
   margin-top: 80px;
@@ -152,7 +171,8 @@ table {
   width: 100%;
 }
 
-td, th {
+td,
+th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;

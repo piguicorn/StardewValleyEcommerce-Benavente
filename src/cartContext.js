@@ -1,9 +1,11 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, useState, useEffect } from 'react';
 
 export const CartContext = createContext();
 
 export function CartProvider({ children }) {
     const [items, setItems] = useState([]);
+    const [totalItems, setTotalItems] = useState(null);
+    const [totalPrice, setTotalPrice] = useState(null);
 
     // isItemInCart
     function isItemInCart(itemId) {
@@ -33,9 +35,22 @@ export function CartProvider({ children }) {
     // clear
     const clearCart = () => setItems([]);
 
+    useEffect(() => {
+        // totalItems
+        const totalItemsResult = items.reduce((a, b) => a + parseInt(b.quantity), 0);
+        setTotalItems(totalItemsResult);
+
+        // totalPrice
+        const totalPriceResult = items.reduce((a, b) => a + (parseInt(b.item.price) * parseInt(b.quantity)), 0);
+        setTotalPrice(totalPriceResult)
+    }, [items])
+    
+
+    
+
 
     return (
-        <CartContext.Provider value={[items, addItem, removeItem, clearCart]}>
+        <CartContext.Provider value={[items, addItem, removeItem, clearCart, totalItems, totalPrice]}>
             {children}
         </CartContext.Provider>
     )
